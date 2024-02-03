@@ -11,4 +11,11 @@ url = URL.create(
     password="password",
 )
 
+instructions = "CREATE TABLE rubiomatias2_coderhouse.subreddit (" \
+    + "subreddit_id varchar NULL," \
+    + "user_id varchar NULL," \
+    + "update_date time NULL," \
+    + '"disable" varchar NULL);' \
+    "COMMENT ON TABLE rubiomatias2_coderhouse.subreddit IS 'Subreddits de Reddit';"
+
 engine = sa.create_engine(url)
