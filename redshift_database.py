@@ -1,8 +1,7 @@
 import sqlalchemy as sa
-from sqlalchemy.engine.url import URL
+from sqlalchemy.engine.url import URL as Redshift
 
-# build the sqlalchemy URL
-url = URL.create(
+url = Redshift.create(
     drivername='redshift+redshift_connector',
     host="host",
     port="port",

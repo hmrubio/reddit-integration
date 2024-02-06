@@ -33,10 +33,6 @@ def get_subreddits(query, sort, limit):
 
     path_subreddits = search_endpoint['PATH_SAVING']
     path_subreddits_urls = search_endpoint['PATH_SAVING_URLS']
-    if not os.path.exists(path_subreddits):
-        open(path_subreddits, "x", encoding="utf-8")
-    if not os.path.exists(path_subreddits_urls):
-        open(path_subreddits_urls, "x", encoding="utf-8")
 
     with open(path_subreddits, "w", encoding="utf-8") as file, \
             open(path_subreddits_urls, "w", encoding="utf-8") as file_urls:
@@ -60,9 +56,15 @@ def get_comment_ids_from_subreddits():
     path_subreddits_urls = search_endpoint['PATH_SAVING_URLS']
     with open(path_subreddits_urls, "r", encoding="utf-8") as file_urls:
         string = subreddit_endpoint['URL_FORMAT']
+        datetime_start = show_compilation_started()
         for url in file_urls:
             url = string.format(subreddit=url).replace("\n", "")
-            get_comment_ids_from_subreddit(url)
+            try:
+                get_comment_ids_from_subreddit(url)
+            except:
+                print(f"The next URL was skipped because an error: {url}")
+                continue
+        show_compilation_finished(datetime_start)
 
 
 def get_comment_ids_from_subreddit(url: str):
@@ -70,7 +72,9 @@ def get_comment_ids_from_subreddit(url: str):
 
     url = f"{general_config['URL_BASE']}{url}"
     auth = get_authentication()
-    params = {}
+    params = {
+        'raw_json': 1
+    }
 
     response = launch_request(f"subreddits_comments/{name_subreddit}", requests, url, auth, **params)
     if response is None:
@@ -78,15 +82,13 @@ def get_comment_ids_from_subreddit(url: str):
 
     path_subreddit_comments = subreddit_endpoint["PATH_COMMENTS_ID"] \
         .format(subreddit=name_subreddit)
+
     with open(path_subreddit_comments, "w", encoding="utf-8") as file:
         try:
-            datetime_start = show_compilation_started()
             comments = response.json()['data']['children']
             for comment in comments:
                 comment_id = comment["data"]["id"]
                 file.write(f"{name_subreddit, comment_id}\n")
-
-            show_compilation_finished(datetime_start)
         except Exception as e:
             print(e)
 
@@ -101,7 +103,12 @@ def get_comments_from_ids():
         datetime_start = show_compilation_started()
         for line in unique_file:
             subreddit, comment_id = ast.literal_eval(line)
-            get_comments_info_from_subreddit(subreddit, comment_id)
+            try:
+                get_comments_info_from_subreddit(subreddit, comment_id)
+            except:
+                print(f"The next ID was skipped because an error: "
+                      f"{subreddit}_{comment_id}")
+                continue
         show_compilation_finished(datetime_start)
 
 
@@ -109,7 +116,9 @@ def get_comments_info_from_subreddit(subreddit: str, comment_id: str):
     url = f"{general_config['URL_BASE']}/" \
           f"{comment_endpoint['URL_FORMAT'].format(subreddit=subreddit, comment_id=comment_id)}"
     auth = get_authentication()
-    params = {}
+    params = {
+        'raw_json': 1
+    }
 
     response = launch_request(f"comments/{subreddit}_{comment_id}", requests, url, auth, **params)
     if response is None:
@@ -132,7 +141,10 @@ def get_authentication():
 
 
 def launch_request(name: str, api: requests, url, auth, **params) -> Response:
-    response_recover = recover_success_request(name)
+    response_recover = None
+
+    if general_config.getboolean("USE_RESTORABLE_REQUEST"):
+        response_recover = recover_success_request(name)
 
     if response_recover is None:
         new_response = api.get(
@@ -144,6 +156,9 @@ def launch_request(name: str, api: requests, url, auth, **params) -> Response:
         if new_response.status_code == 200:
             save_success_request(new_response, name)
             response_recover = new_response
+        else:
+            raise Exception("It was no possible to recover a useful request. "
+                            "Reject because too many requests.")
 
     return response_recover
 
@@ -171,8 +186,6 @@ def update_filesize_message(filesize, limit):
 
 def save_success_request(response_request: Response, temp_filename: str):
     temporary_path = f"temp/{temp_filename}.pickle"
-    if not os.path.exists(temporary_path):
-        open(temporary_path, "x", encoding="utf-8")
     with open(temporary_path, "wb") as file:
         pickle.dump(response_request, file)
 
@@ -190,7 +203,24 @@ def get_name_from_subreddit_url(url: str) -> str:
     return url
 
 
+def create_directory_if_not_exists(relative_path: str):
+    if not os.path.exists(relative_path):
+        os.makedirs(relative_path, exist_ok=False)
+
+
+def create_necessary_directories():
+    create_directory_if_not_exists("temp")
+    create_directory_if_not_exists("temp/subreddits_comments")
+    create_directory_if_not_exists("temp/comments")
+
+    create_directory_if_not_exists("data")
+    create_directory_if_not_exists("data/subreddits_comments")
+    create_directory_if_not_exists("data/comments")
+
+
 if __name__ == "__main__":
-    # get_subreddits(search_endpoint['QUERY'], search_endpoint['SORT'], search_endpoint['LIMIT'])
-    # get_comment_ids_from_subreddits()
+    create_necessary_directories()
+
+    get_subreddits(search_endpoint['QUERY'], search_endpoint['SORT'], search_endpoint['LIMIT'])
+    get_comment_ids_from_subreddits()
     get_comments_from_ids()
