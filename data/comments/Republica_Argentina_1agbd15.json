@@ -39,7 +39,7 @@
             "link_flair_text_color": "light",
             "upvote_ratio": 0.78,
             "author_flair_background_color": "#944300",
-            "ups": 30,
+            "ups": 29,
             "domain": "eldiarioar.com",
             "media_embed": {},
             "thumbnail_width": 140,
@@ -53,7 +53,7 @@
             "secure_media_embed": {},
             "link_flair_text": "Estafa",
             "can_mod_post": false,
-            "score": 30,
+            "score": 29,
             "approved_by": null,
             "is_created_from_ads_ui": false,
             "author_premium": false,
@@ -94,38 +94,38 @@
               "images": [
                 {
                   "source": {
-                    "url": "https://external-preview.redd.it/Qwwy7E62V4T6LOyZ0fR4huvmiQSxOJ_KZSoIIOElLTg.jpg?auto=webp&amp;s=f36b92b64950b76c59c5cf298666ffe6ca9eaba3",
+                    "url": "https://external-preview.redd.it/Qwwy7E62V4T6LOyZ0fR4huvmiQSxOJ_KZSoIIOElLTg.jpg?auto=webp&s=f36b92b64950b76c59c5cf298666ffe6ca9eaba3",
                     "width": 1200,
                     "height": 628
                   },
                   "resolutions": [
                     {
-                      "url": "https://external-preview.redd.it/Qwwy7E62V4T6LOyZ0fR4huvmiQSxOJ_KZSoIIOElLTg.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=5e5fc3c3e214ae1799aac301309ff1874f0ac5ea",
+                      "url": "https://external-preview.redd.it/Qwwy7E62V4T6LOyZ0fR4huvmiQSxOJ_KZSoIIOElLTg.jpg?width=108&crop=smart&auto=webp&s=5e5fc3c3e214ae1799aac301309ff1874f0ac5ea",
                       "width": 108,
                       "height": 56
                     },
                     {
-                      "url": "https://external-preview.redd.it/Qwwy7E62V4T6LOyZ0fR4huvmiQSxOJ_KZSoIIOElLTg.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=b3d97bc204843ef314019fc0f2a1a5202a7488d3",
+                      "url": "https://external-preview.redd.it/Qwwy7E62V4T6LOyZ0fR4huvmiQSxOJ_KZSoIIOElLTg.jpg?width=216&crop=smart&auto=webp&s=b3d97bc204843ef314019fc0f2a1a5202a7488d3",
                       "width": 216,
                       "height": 113
                     },
                     {
-                      "url": "https://external-preview.redd.it/Qwwy7E62V4T6LOyZ0fR4huvmiQSxOJ_KZSoIIOElLTg.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=72f52c6a21c13c2edfb6dc037213cb94adfae27f",
+                      "url": "https://external-preview.redd.it/Qwwy7E62V4T6LOyZ0fR4huvmiQSxOJ_KZSoIIOElLTg.jpg?width=320&crop=smart&auto=webp&s=72f52c6a21c13c2edfb6dc037213cb94adfae27f",
                       "width": 320,
                       "height": 167
                     },
                     {
-                      "url": "https://external-preview.redd.it/Qwwy7E62V4T6LOyZ0fR4huvmiQSxOJ_KZSoIIOElLTg.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=482c5b95ead27ac77bef2e8486882815389fbc02",
+                      "url": "https://external-preview.redd.it/Qwwy7E62V4T6LOyZ0fR4huvmiQSxOJ_KZSoIIOElLTg.jpg?width=640&crop=smart&auto=webp&s=482c5b95ead27ac77bef2e8486882815389fbc02",
                       "width": 640,
                       "height": 334
                     },
                     {
-                      "url": "https://external-preview.redd.it/Qwwy7E62V4T6LOyZ0fR4huvmiQSxOJ_KZSoIIOElLTg.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;s=a17aba0a2af21a62b1f7696d4fef884d2ecf8157",
+                      "url": "https://external-preview.redd.it/Qwwy7E62V4T6LOyZ0fR4huvmiQSxOJ_KZSoIIOElLTg.jpg?width=960&crop=smart&auto=webp&s=a17aba0a2af21a62b1f7696d4fef884d2ecf8157",
                       "width": 960,
                       "height": 502
                     },
                     {
-                      "url": "https://external-preview.redd.it/Qwwy7E62V4T6LOyZ0fR4huvmiQSxOJ_KZSoIIOElLTg.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=a33378482db68dcd3e45f2b0e9227b07900a9823",
+                      "url": "https://external-preview.redd.it/Qwwy7E62V4T6LOyZ0fR4huvmiQSxOJ_KZSoIIOElLTg.jpg?width=1080&crop=smart&auto=webp&s=a33378482db68dcd3e45f2b0e9227b07900a9823",
                       "width": 1080,
                       "height": 565
                     }
@@ -171,7 +171,7 @@
             "whitelist_status": "all_ads",
             "stickied": false,
             "url": "https://www.eldiarioar.com/opinion/perros-milei-comen-hijos-pobres-no_129_10884308.html",
-            "subreddit_subscribers": 32221,
+            "subreddit_subscribers": 32260,
             "created_utc": 1706795231.0,
             "num_crossposts": 0,
             "mod_reports": [],
@@ -226,7 +226,7 @@
             "mod_note": null,
             "all_awardings": [],
             "collapsed": false,
-            "body": "#####&amp;#009;\n\n######&amp;#009;\n\n####&amp;#009;\n\n&gt; # [Los perros de Milei comen, los hijos de los pobres no](https://static.eldiario.es/clip/522be155-a7da-43f3-b931-23209a204aa1_facebook-aspect-ratio_default_0.jpg)\n&gt; \n&gt;   \n&gt;   \n&gt;  Hoy marcha la red de comedores comunitarios porque hace dos meses no hay alimentos. Como vengo diciendo, hoy mi rol est\u00e1 en la oposici\u00f3n pol\u00edtica y no en el movimiento social, pero no puedo m\u00e1s que unir mi voz al grito de estos hermanos pac\u00edficamente movilizados y advertir la gravedad del desabastecimiento deliberado de los comedores por parte de la ministra de Capital Humano, Sandra Pettovello.\n&gt; \n&gt;  No est\u00e1n entregando alimentos. Liquidaron el remanente y no repusieron nada. Suspendieron el Programa de Naciones Unidas para el Desarrollo que abastec\u00eda de alimentos y auditaba los comedores.\n&gt; \n&gt;  Con cada comedor que cae desabastecido, hay cien pibes que no comen. Cuando caigan todos, ser\u00e1n unas cinco millones de personas sin alimentos.\n&gt; \n&gt;  Te van a decir que est\u00e1n auditando comedores para evitar irregularidades. Mentira. No auditaron ninguno de los 41.253 mil comedores y merenderos inscriptos en el Registro Nacional de Comedores Comunitarios de Organizaciones de la Sociedad Civil (ReNaCOM), cuyos beneficiarios tienen el derecho adquirido a comer ah\u00ed hasta que estos genios inventen un sistema mejor y m\u00e1s transparente que el de Naciones Unidas.\n&gt; \n&gt;  Te van a decir que hay gente que roba con los alimentos o cosas por el estilo. Seguro que la hay, as\u00ed como hay legisladores ladrones y no por eso cerramos el Congreso, funcionarios ladrones y no por eso cerramos el Ejecutivo, jueces ladrones y no por eso cerramos los tribunales, polic\u00edas ladrones y no por eso cerramos las comisar\u00edas.\n&gt; \n&gt;  No estoy diciendo nada demasiado complicado ni ideol\u00f3gico: \u00a1no cerremos los comedores hasta que haya un sistema mejor!\n&gt; \n&gt;              La gente que delinque con la ayuda social o la organizaci\u00f3n comunitaria son criminales comunes que deben ser denunciados uno por uno por los hechos punibles, investigados adecuadamente, juzgados y condenados. La generalizaci\u00f3n es la anulaci\u00f3n de la justicia y, si se convierte en pol\u00edtica de estado en boca de los funcionarios, una peligrosa incitaci\u00f3n a la violencia.\n&gt; \n&gt;  Te van a decir que est\u00e1n dando ayuda directa para cortar la intermediaci\u00f3n porque aumentaron el Programa Alimentar. Mentira. El Programa Alimentar llega a 3 de cada 10 ni\u00f1os pobres, y a 1 de cada 10 familias pobres. Es un programa que llega a 1,9 millones de ni\u00f1os, mientras los comedores alimentan entre 4 y 5 millones que no tienen nada de nada. El aumento, adem\u00e1s, est\u00e1 muy por debajo de la inflaci\u00f3n proyectada duplicada por la megadevaluaci\u00f3n que \u2014como todos saben\u2014 impacta fundamentalmente en el precio de los alimentos.\n&gt; \n&gt;  Te van a decir que ellos van a solucionar los problemas de fondo y no quieren repartir polenta. Que se van a tomar sus veinte a\u00f1os, pero lo solucionar\u00e1n\u2026 sacrificios hoy, libertad ma\u00f1ana. Pero sus hijos comen todos los d\u00edas, y los perros de Milei comen mejor que los pibes de los barrios.\n&gt; \n&gt;  Te van a decir que me quejo porque soy el gerente de la pobreza. Mentira. No soy gerente de nada. No gerencio ning\u00fan recurso p\u00fablico ni cobro del Estado. Simplemente digo ahora, como dije en todos los gobiernos anteriores, que el hambre es un crimen. Como ciudadano consciente de mi pertenencia a un pueblo, sin ejercer la responsabilidad de la funci\u00f3n p\u00fablica, hago lo que puedo para enfrentar las consecuencias de las cagadas que hacen otros.\n&gt; \n&gt;  Hacen mucho m\u00e1s que yo, miles y miles de cocineros de los comedores comunitarios, militantes de los movimientos sociales, voluntarios de la juventud solidaria, laicos y sacerdotes de las organizaciones eclesiales, que hoy tienen que decirles a los \u00faltimos de la fila: no queda m\u00e1s nada. Son los h\u00e9roes y hero\u00ednas que no mencionan en Davos.\n&gt; \n&gt;  Sandra Pettovello, CUIL virgen hasta los 48 a\u00f1os, s\u00ed gerencia recursos p\u00fablicos y cobra del Estado. Lo digo y lo pruebo, a diferencia de ustedes que hablan porque es gratis. Es f\u00e1cil: sacan un informe laboral como cualquier empleador y ven la experiencia de cada cual.\n&gt; \n&gt;  Sandra Pettovello no registra aportes hasta el 2017, cuando consigue su primera chamba de monotributo categor\u00eda B con un ingreso de hasta 300 mil pesos. Entre los 18 y los 48 tuvo el CUIL reservado.\n&gt; \n&gt;              En la p\u00e1gina web de la Oficina Anticorrupci\u00f3n no aparecen sus paup\u00e9rrimos antecedentes laborales como indica la ley. Ficha 100% limpia.\n&gt; \n&gt;              Sandra Pettovello es la gerenta oficial de la pobreza, la reparte-polenta perfumada con salario millonario. Esta mujer s\u00ed gerencia recursos p\u00fablicos y obtiene dinero a cambio. Hoy cobra diez veces m\u00e1s que lo que ganaba hace dos meses, mientras la gente que ella deber\u00eda proteger gana un 30% y come la mitad de las calor\u00edas desde que asumi\u00f3.\n&gt; \n&gt;  Sandra Pettovello es un bodoque inepto cuyo m\u00e9rito es haber trepado al c\u00edrculo \u00edntimo del presidente. Te habla de meritocracia y deja sin alimentos a millones de personas, en su mayor\u00eda ni\u00f1os que, si antes com\u00edan mal, ahora no comen, no pueden estudiar, no desarrollan sus capacidades cognitivas.\n&gt; \n&gt;  Semejante ineptitud, \u201ccon tanta gente preparada en el sector privado\u201d, como dir\u00eda Benegas Lynch, habla de la continuidad de la pr\u00e1ctica pol\u00edtica propia lamentable de este pa\u00eds: repartir ministerios, secretar\u00edas y subsecretar\u00edas a los amigos sin experiencia vital, sin antecedentes que justifiquen el nombramiento, sin conocimiento de la materia, sin un plan previamente dise\u00f1ado. No es una cuesti\u00f3n de clase social, no es una cuesti\u00f3n de credenciales acad\u00e9micas. Es saber hacer, es saber distinguir lo urgente de lo postergable, lo necesario de lo accesorio. Es la sabidur\u00eda que se adquiere en la praxis, la facultad de escucha al distinto, la sensibilidad de comprender el dolor ajeno, la capacidad de trabajo colectivo.\n&gt; \n&gt;  Esta mujer no sabe. No siente. No hace.\n&gt; \n&gt;  Su omisi\u00f3n es un crimen moral\u2026 y probablemente un crimen legal.\n&gt; \n&gt;  Milei. El hambre no.\n&gt; \n&gt;  _Aclaraci\u00f3n: no contrato servicios de inteligencia, no me meto con la vida personal de nadie, no pido informaci\u00f3n privada. Todo lo que estoy publicando es informaci\u00f3n de acceso p\u00fablico \u2014antecedentes laborales\u2014 cuya publicaci\u00f3n es obligaci\u00f3n de los funcionarios. El resto es mi caracterizaci\u00f3n pol\u00edtica sobre una funcionaria que no funciona._\n&gt; \n&gt;  _Aclaraci\u00f3n II: Para cualquier gil que diga \u201cse acordaron ahora\u201d, le recomiendo recurrir a Google, al Chat GPT o a una hemeroteca para ver las acciones y denuncias efectuadas por el suscripto y las organizaciones sociales durante el gobierno anterior._\n&gt; \n&gt;  _JG/DTC_\n\n  \n  \n  \n- - - - - -\n\n[Maintainer](https://www.reddit.com/user/urielsalis) | [Creator](https://www.reddit.com/user/subtepass) | [Source Code](https://github.com/urielsalis/empleadoEstatalBot)",
+            "body": "#####&#009;\n\n######&#009;\n\n####&#009;\n\n> # [Los perros de Milei comen, los hijos de los pobres no](https://static.eldiario.es/clip/522be155-a7da-43f3-b931-23209a204aa1_facebook-aspect-ratio_default_0.jpg)\n> \n>   \n>   \n>  Hoy marcha la red de comedores comunitarios porque hace dos meses no hay alimentos. Como vengo diciendo, hoy mi rol est\u00e1 en la oposici\u00f3n pol\u00edtica y no en el movimiento social, pero no puedo m\u00e1s que unir mi voz al grito de estos hermanos pac\u00edficamente movilizados y advertir la gravedad del desabastecimiento deliberado de los comedores por parte de la ministra de Capital Humano, Sandra Pettovello.\n> \n>  No est\u00e1n entregando alimentos. Liquidaron el remanente y no repusieron nada. Suspendieron el Programa de Naciones Unidas para el Desarrollo que abastec\u00eda de alimentos y auditaba los comedores.\n> \n>  Con cada comedor que cae desabastecido, hay cien pibes que no comen. Cuando caigan todos, ser\u00e1n unas cinco millones de personas sin alimentos.\n> \n>  Te van a decir que est\u00e1n auditando comedores para evitar irregularidades. Mentira. No auditaron ninguno de los 41.253 mil comedores y merenderos inscriptos en el Registro Nacional de Comedores Comunitarios de Organizaciones de la Sociedad Civil (ReNaCOM), cuyos beneficiarios tienen el derecho adquirido a comer ah\u00ed hasta que estos genios inventen un sistema mejor y m\u00e1s transparente que el de Naciones Unidas.\n> \n>  Te van a decir que hay gente que roba con los alimentos o cosas por el estilo. Seguro que la hay, as\u00ed como hay legisladores ladrones y no por eso cerramos el Congreso, funcionarios ladrones y no por eso cerramos el Ejecutivo, jueces ladrones y no por eso cerramos los tribunales, polic\u00edas ladrones y no por eso cerramos las comisar\u00edas.\n> \n>  No estoy diciendo nada demasiado complicado ni ideol\u00f3gico: \u00a1no cerremos los comedores hasta que haya un sistema mejor!\n> \n>              La gente que delinque con la ayuda social o la organizaci\u00f3n comunitaria son criminales comunes que deben ser denunciados uno por uno por los hechos punibles, investigados adecuadamente, juzgados y condenados. La generalizaci\u00f3n es la anulaci\u00f3n de la justicia y, si se convierte en pol\u00edtica de estado en boca de los funcionarios, una peligrosa incitaci\u00f3n a la violencia.\n> \n>  Te van a decir que est\u00e1n dando ayuda directa para cortar la intermediaci\u00f3n porque aumentaron el Programa Alimentar. Mentira. El Programa Alimentar llega a 3 de cada 10 ni\u00f1os pobres, y a 1 de cada 10 familias pobres. Es un programa que llega a 1,9 millones de ni\u00f1os, mientras los comedores alimentan entre 4 y 5 millones que no tienen nada de nada. El aumento, adem\u00e1s, est\u00e1 muy por debajo de la inflaci\u00f3n proyectada duplicada por la megadevaluaci\u00f3n que \u2014como todos saben\u2014 impacta fundamentalmente en el precio de los alimentos.\n> \n>  Te van a decir que ellos van a solucionar los problemas de fondo y no quieren repartir polenta. Que se van a tomar sus veinte a\u00f1os, pero lo solucionar\u00e1n\u2026 sacrificios hoy, libertad ma\u00f1ana. Pero sus hijos comen todos los d\u00edas, y los perros de Milei comen mejor que los pibes de los barrios.\n> \n>  Te van a decir que me quejo porque soy el gerente de la pobreza. Mentira. No soy gerente de nada. No gerencio ning\u00fan recurso p\u00fablico ni cobro del Estado. Simplemente digo ahora, como dije en todos los gobiernos anteriores, que el hambre es un crimen. Como ciudadano consciente de mi pertenencia a un pueblo, sin ejercer la responsabilidad de la funci\u00f3n p\u00fablica, hago lo que puedo para enfrentar las consecuencias de las cagadas que hacen otros.\n> \n>  Hacen mucho m\u00e1s que yo, miles y miles de cocineros de los comedores comunitarios, militantes de los movimientos sociales, voluntarios de la juventud solidaria, laicos y sacerdotes de las organizaciones eclesiales, que hoy tienen que decirles a los \u00faltimos de la fila: no queda m\u00e1s nada. Son los h\u00e9roes y hero\u00ednas que no mencionan en Davos.\n> \n>  Sandra Pettovello, CUIL virgen hasta los 48 a\u00f1os, s\u00ed gerencia recursos p\u00fablicos y cobra del Estado. Lo digo y lo pruebo, a diferencia de ustedes que hablan porque es gratis. Es f\u00e1cil: sacan un informe laboral como cualquier empleador y ven la experiencia de cada cual.\n> \n>  Sandra Pettovello no registra aportes hasta el 2017, cuando consigue su primera chamba de monotributo categor\u00eda B con un ingreso de hasta 300 mil pesos. Entre los 18 y los 48 tuvo el CUIL reservado.\n> \n>              En la p\u00e1gina web de la Oficina Anticorrupci\u00f3n no aparecen sus paup\u00e9rrimos antecedentes laborales como indica la ley. Ficha 100% limpia.\n> \n>              Sandra Pettovello es la gerenta oficial de la pobreza, la reparte-polenta perfumada con salario millonario. Esta mujer s\u00ed gerencia recursos p\u00fablicos y obtiene dinero a cambio. Hoy cobra diez veces m\u00e1s que lo que ganaba hace dos meses, mientras la gente que ella deber\u00eda proteger gana un 30% y come la mitad de las calor\u00edas desde que asumi\u00f3.\n> \n>  Sandra Pettovello es un bodoque inepto cuyo m\u00e9rito es haber trepado al c\u00edrculo \u00edntimo del presidente. Te habla de meritocracia y deja sin alimentos a millones de personas, en su mayor\u00eda ni\u00f1os que, si antes com\u00edan mal, ahora no comen, no pueden estudiar, no desarrollan sus capacidades cognitivas.\n> \n>  Semejante ineptitud, \u201ccon tanta gente preparada en el sector privado\u201d, como dir\u00eda Benegas Lynch, habla de la continuidad de la pr\u00e1ctica pol\u00edtica propia lamentable de este pa\u00eds: repartir ministerios, secretar\u00edas y subsecretar\u00edas a los amigos sin experiencia vital, sin antecedentes que justifiquen el nombramiento, sin conocimiento de la materia, sin un plan previamente dise\u00f1ado. No es una cuesti\u00f3n de clase social, no es una cuesti\u00f3n de credenciales acad\u00e9micas. Es saber hacer, es saber distinguir lo urgente de lo postergable, lo necesario de lo accesorio. Es la sabidur\u00eda que se adquiere en la praxis, la facultad de escucha al distinto, la sensibilidad de comprender el dolor ajeno, la capacidad de trabajo colectivo.\n> \n>  Esta mujer no sabe. No siente. No hace.\n> \n>  Su omisi\u00f3n es un crimen moral\u2026 y probablemente un crimen legal.\n> \n>  Milei. El hambre no.\n> \n>  _Aclaraci\u00f3n: no contrato servicios de inteligencia, no me meto con la vida personal de nadie, no pido informaci\u00f3n privada. Todo lo que estoy publicando es informaci\u00f3n de acceso p\u00fablico \u2014antecedentes laborales\u2014 cuya publicaci\u00f3n es obligaci\u00f3n de los funcionarios. El resto es mi caracterizaci\u00f3n pol\u00edtica sobre una funcionaria que no funciona._\n> \n>  _Aclaraci\u00f3n II: Para cualquier gil que diga \u201cse acordaron ahora\u201d, le recomiendo recurrir a Google, al Chat GPT o a una hemeroteca para ver las acciones y denuncias efectuadas por el suscripto y las organizaciones sociales durante el gobierno anterior._\n> \n>  _JG/DTC_\n\n  \n  \n  \n- - - - - -\n\n[Maintainer](https://www.reddit.com/user/urielsalis) | [Creator](https://www.reddit.com/user/subtepass) | [Source Code](https://github.com/urielsalis/empleadoEstatalBot)",
             "edited": false,
             "top_awarded_type": null,
             "author_flair_css_class": null,
@@ -245,7 +245,7 @@
               }
             ],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;h5&gt;&amp;#009;&lt;/h5&gt;\n\n&lt;h6&gt;&amp;#009;&lt;/h6&gt;\n\n&lt;h4&gt;&amp;#009;&lt;/h4&gt;\n\n&lt;blockquote&gt;\n&lt;h1&gt;&lt;a href=\"https://static.eldiario.es/clip/522be155-a7da-43f3-b931-23209a204aa1_facebook-aspect-ratio_default_0.jpg\"&gt;Los perros de Milei comen, los hijos de los pobres no&lt;/a&gt;&lt;/h1&gt;\n\n&lt;p&gt;Hoy marcha la red de comedores comunitarios porque hace dos meses no hay alimentos. Como vengo diciendo, hoy mi rol est\u00e1 en la oposici\u00f3n pol\u00edtica y no en el movimiento social, pero no puedo m\u00e1s que unir mi voz al grito de estos hermanos pac\u00edficamente movilizados y advertir la gravedad del desabastecimiento deliberado de los comedores por parte de la ministra de Capital Humano, Sandra Pettovello.&lt;/p&gt;\n\n&lt;p&gt;No est\u00e1n entregando alimentos. Liquidaron el remanente y no repusieron nada. Suspendieron el Programa de Naciones Unidas para el Desarrollo que abastec\u00eda de alimentos y auditaba los comedores.&lt;/p&gt;\n\n&lt;p&gt;Con cada comedor que cae desabastecido, hay cien pibes que no comen. Cuando caigan todos, ser\u00e1n unas cinco millones de personas sin alimentos.&lt;/p&gt;\n\n&lt;p&gt;Te van a decir que est\u00e1n auditando comedores para evitar irregularidades. Mentira. No auditaron ninguno de los 41.253 mil comedores y merenderos inscriptos en el Registro Nacional de Comedores Comunitarios de Organizaciones de la Sociedad Civil (ReNaCOM), cuyos beneficiarios tienen el derecho adquirido a comer ah\u00ed hasta que estos genios inventen un sistema mejor y m\u00e1s transparente que el de Naciones Unidas.&lt;/p&gt;\n\n&lt;p&gt;Te van a decir que hay gente que roba con los alimentos o cosas por el estilo. Seguro que la hay, as\u00ed como hay legisladores ladrones y no por eso cerramos el Congreso, funcionarios ladrones y no por eso cerramos el Ejecutivo, jueces ladrones y no por eso cerramos los tribunales, polic\u00edas ladrones y no por eso cerramos las comisar\u00edas.&lt;/p&gt;\n\n&lt;p&gt;No estoy diciendo nada demasiado complicado ni ideol\u00f3gico: \u00a1no cerremos los comedores hasta que haya un sistema mejor!&lt;/p&gt;\n\n&lt;pre&gt;&lt;code&gt;         La gente que delinque con la ayuda social o la organizaci\u00f3n comunitaria son criminales comunes que deben ser denunciados uno por uno por los hechos punibles, investigados adecuadamente, juzgados y condenados. La generalizaci\u00f3n es la anulaci\u00f3n de la justicia y, si se convierte en pol\u00edtica de estado en boca de los funcionarios, una peligrosa incitaci\u00f3n a la violencia.\n&lt;/code&gt;&lt;/pre&gt;\n\n&lt;p&gt;Te van a decir que est\u00e1n dando ayuda directa para cortar la intermediaci\u00f3n porque aumentaron el Programa Alimentar. Mentira. El Programa Alimentar llega a 3 de cada 10 ni\u00f1os pobres, y a 1 de cada 10 familias pobres. Es un programa que llega a 1,9 millones de ni\u00f1os, mientras los comedores alimentan entre 4 y 5 millones que no tienen nada de nada. El aumento, adem\u00e1s, est\u00e1 muy por debajo de la inflaci\u00f3n proyectada duplicada por la megadevaluaci\u00f3n que \u2014como todos saben\u2014 impacta fundamentalmente en el precio de los alimentos.&lt;/p&gt;\n\n&lt;p&gt;Te van a decir que ellos van a solucionar los problemas de fondo y no quieren repartir polenta. Que se van a tomar sus veinte a\u00f1os, pero lo solucionar\u00e1n\u2026 sacrificios hoy, libertad ma\u00f1ana. Pero sus hijos comen todos los d\u00edas, y los perros de Milei comen mejor que los pibes de los barrios.&lt;/p&gt;\n\n&lt;p&gt;Te van a decir que me quejo porque soy el gerente de la pobreza. Mentira. No soy gerente de nada. No gerencio ning\u00fan recurso p\u00fablico ni cobro del Estado. Simplemente digo ahora, como dije en todos los gobiernos anteriores, que el hambre es un crimen. Como ciudadano consciente de mi pertenencia a un pueblo, sin ejercer la responsabilidad de la funci\u00f3n p\u00fablica, hago lo que puedo para enfrentar las consecuencias de las cagadas que hacen otros.&lt;/p&gt;\n\n&lt;p&gt;Hacen mucho m\u00e1s que yo, miles y miles de cocineros de los comedores comunitarios, militantes de los movimientos sociales, voluntarios de la juventud solidaria, laicos y sacerdotes de las organizaciones eclesiales, que hoy tienen que decirles a los \u00faltimos de la fila: no queda m\u00e1s nada. Son los h\u00e9roes y hero\u00ednas que no mencionan en Davos.&lt;/p&gt;\n\n&lt;p&gt;Sandra Pettovello, CUIL virgen hasta los 48 a\u00f1os, s\u00ed gerencia recursos p\u00fablicos y cobra del Estado. Lo digo y lo pruebo, a diferencia de ustedes que hablan porque es gratis. Es f\u00e1cil: sacan un informe laboral como cualquier empleador y ven la experiencia de cada cual.&lt;/p&gt;\n\n&lt;p&gt;Sandra Pettovello no registra aportes hasta el 2017, cuando consigue su primera chamba de monotributo categor\u00eda B con un ingreso de hasta 300 mil pesos. Entre los 18 y los 48 tuvo el CUIL reservado.&lt;/p&gt;\n\n&lt;pre&gt;&lt;code&gt;         En la p\u00e1gina web de la Oficina Anticorrupci\u00f3n no aparecen sus paup\u00e9rrimos antecedentes laborales como indica la ley. Ficha 100% limpia.\n\n         Sandra Pettovello es la gerenta oficial de la pobreza, la reparte-polenta perfumada con salario millonario. Esta mujer s\u00ed gerencia recursos p\u00fablicos y obtiene dinero a cambio. Hoy cobra diez veces m\u00e1s que lo que ganaba hace dos meses, mientras la gente que ella deber\u00eda proteger gana un 30% y come la mitad de las calor\u00edas desde que asumi\u00f3.\n&lt;/code&gt;&lt;/pre&gt;\n\n&lt;p&gt;Sandra Pettovello es un bodoque inepto cuyo m\u00e9rito es haber trepado al c\u00edrculo \u00edntimo del presidente. Te habla de meritocracia y deja sin alimentos a millones de personas, en su mayor\u00eda ni\u00f1os que, si antes com\u00edan mal, ahora no comen, no pueden estudiar, no desarrollan sus capacidades cognitivas.&lt;/p&gt;\n\n&lt;p&gt;Semejante ineptitud, \u201ccon tanta gente preparada en el sector privado\u201d, como dir\u00eda Benegas Lynch, habla de la continuidad de la pr\u00e1ctica pol\u00edtica propia lamentable de este pa\u00eds: repartir ministerios, secretar\u00edas y subsecretar\u00edas a los amigos sin experiencia vital, sin antecedentes que justifiquen el nombramiento, sin conocimiento de la materia, sin un plan previamente dise\u00f1ado. No es una cuesti\u00f3n de clase social, no es una cuesti\u00f3n de credenciales acad\u00e9micas. Es saber hacer, es saber distinguir lo urgente de lo postergable, lo necesario de lo accesorio. Es la sabidur\u00eda que se adquiere en la praxis, la facultad de escucha al distinto, la sensibilidad de comprender el dolor ajeno, la capacidad de trabajo colectivo.&lt;/p&gt;\n\n&lt;p&gt;Esta mujer no sabe. No siente. No hace.&lt;/p&gt;\n\n&lt;p&gt;Su omisi\u00f3n es un crimen moral\u2026 y probablemente un crimen legal.&lt;/p&gt;\n\n&lt;p&gt;Milei. El hambre no.&lt;/p&gt;\n\n&lt;p&gt;&lt;em&gt;Aclaraci\u00f3n: no contrato servicios de inteligencia, no me meto con la vida personal de nadie, no pido informaci\u00f3n privada. Todo lo que estoy publicando es informaci\u00f3n de acceso p\u00fablico \u2014antecedentes laborales\u2014 cuya publicaci\u00f3n es obligaci\u00f3n de los funcionarios. El resto es mi caracterizaci\u00f3n pol\u00edtica sobre una funcionaria que no funciona.&lt;/em&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;em&gt;Aclaraci\u00f3n II: Para cualquier gil que diga \u201cse acordaron ahora\u201d, le recomiendo recurrir a Google, al Chat GPT o a una hemeroteca para ver las acciones y denuncias efectuadas por el suscripto y las organizaciones sociales durante el gobierno anterior.&lt;/em&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;em&gt;JG/DTC&lt;/em&gt;&lt;/p&gt;\n&lt;/blockquote&gt;\n\n&lt;hr/&gt;\n\n&lt;p&gt;&lt;a href=\"https://www.reddit.com/user/urielsalis\"&gt;Maintainer&lt;/a&gt; | &lt;a href=\"https://www.reddit.com/user/subtepass\"&gt;Creator&lt;/a&gt; | &lt;a href=\"https://github.com/urielsalis/empleadoEstatalBot\"&gt;Source Code&lt;/a&gt;&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><h5>&#009;</h5>\n\n<h6>&#009;</h6>\n\n<h4>&#009;</h4>\n\n<blockquote>\n<h1><a href=\"https://static.eldiario.es/clip/522be155-a7da-43f3-b931-23209a204aa1_facebook-aspect-ratio_default_0.jpg\">Los perros de Milei comen, los hijos de los pobres no</a></h1>\n\n<p>Hoy marcha la red de comedores comunitarios porque hace dos meses no hay alimentos. Como vengo diciendo, hoy mi rol est\u00e1 en la oposici\u00f3n pol\u00edtica y no en el movimiento social, pero no puedo m\u00e1s que unir mi voz al grito de estos hermanos pac\u00edficamente movilizados y advertir la gravedad del desabastecimiento deliberado de los comedores por parte de la ministra de Capital Humano, Sandra Pettovello.</p>\n\n<p>No est\u00e1n entregando alimentos. Liquidaron el remanente y no repusieron nada. Suspendieron el Programa de Naciones Unidas para el Desarrollo que abastec\u00eda de alimentos y auditaba los comedores.</p>\n\n<p>Con cada comedor que cae desabastecido, hay cien pibes que no comen. Cuando caigan todos, ser\u00e1n unas cinco millones de personas sin alimentos.</p>\n\n<p>Te van a decir que est\u00e1n auditando comedores para evitar irregularidades. Mentira. No auditaron ninguno de los 41.253 mil comedores y merenderos inscriptos en el Registro Nacional de Comedores Comunitarios de Organizaciones de la Sociedad Civil (ReNaCOM), cuyos beneficiarios tienen el derecho adquirido a comer ah\u00ed hasta que estos genios inventen un sistema mejor y m\u00e1s transparente que el de Naciones Unidas.</p>\n\n<p>Te van a decir que hay gente que roba con los alimentos o cosas por el estilo. Seguro que la hay, as\u00ed como hay legisladores ladrones y no por eso cerramos el Congreso, funcionarios ladrones y no por eso cerramos el Ejecutivo, jueces ladrones y no por eso cerramos los tribunales, polic\u00edas ladrones y no por eso cerramos las comisar\u00edas.</p>\n\n<p>No estoy diciendo nada demasiado complicado ni ideol\u00f3gico: \u00a1no cerremos los comedores hasta que haya un sistema mejor!</p>\n\n<pre><code>         La gente que delinque con la ayuda social o la organizaci\u00f3n comunitaria son criminales comunes que deben ser denunciados uno por uno por los hechos punibles, investigados adecuadamente, juzgados y condenados. La generalizaci\u00f3n es la anulaci\u00f3n de la justicia y, si se convierte en pol\u00edtica de estado en boca de los funcionarios, una peligrosa incitaci\u00f3n a la violencia.\n</code></pre>\n\n<p>Te van a decir que est\u00e1n dando ayuda directa para cortar la intermediaci\u00f3n porque aumentaron el Programa Alimentar. Mentira. El Programa Alimentar llega a 3 de cada 10 ni\u00f1os pobres, y a 1 de cada 10 familias pobres. Es un programa que llega a 1,9 millones de ni\u00f1os, mientras los comedores alimentan entre 4 y 5 millones que no tienen nada de nada. El aumento, adem\u00e1s, est\u00e1 muy por debajo de la inflaci\u00f3n proyectada duplicada por la megadevaluaci\u00f3n que \u2014como todos saben\u2014 impacta fundamentalmente en el precio de los alimentos.</p>\n\n<p>Te van a decir que ellos van a solucionar los problemas de fondo y no quieren repartir polenta. Que se van a tomar sus veinte a\u00f1os, pero lo solucionar\u00e1n\u2026 sacrificios hoy, libertad ma\u00f1ana. Pero sus hijos comen todos los d\u00edas, y los perros de Milei comen mejor que los pibes de los barrios.</p>\n\n<p>Te van a decir que me quejo porque soy el gerente de la pobreza. Mentira. No soy gerente de nada. No gerencio ning\u00fan recurso p\u00fablico ni cobro del Estado. Simplemente digo ahora, como dije en todos los gobiernos anteriores, que el hambre es un crimen. Como ciudadano consciente de mi pertenencia a un pueblo, sin ejercer la responsabilidad de la funci\u00f3n p\u00fablica, hago lo que puedo para enfrentar las consecuencias de las cagadas que hacen otros.</p>\n\n<p>Hacen mucho m\u00e1s que yo, miles y miles de cocineros de los comedores comunitarios, militantes de los movimientos sociales, voluntarios de la juventud solidaria, laicos y sacerdotes de las organizaciones eclesiales, que hoy tienen que decirles a los \u00faltimos de la fila: no queda m\u00e1s nada. Son los h\u00e9roes y hero\u00ednas que no mencionan en Davos.</p>\n\n<p>Sandra Pettovello, CUIL virgen hasta los 48 a\u00f1os, s\u00ed gerencia recursos p\u00fablicos y cobra del Estado. Lo digo y lo pruebo, a diferencia de ustedes que hablan porque es gratis. Es f\u00e1cil: sacan un informe laboral como cualquier empleador y ven la experiencia de cada cual.</p>\n\n<p>Sandra Pettovello no registra aportes hasta el 2017, cuando consigue su primera chamba de monotributo categor\u00eda B con un ingreso de hasta 300 mil pesos. Entre los 18 y los 48 tuvo el CUIL reservado.</p>\n\n<pre><code>         En la p\u00e1gina web de la Oficina Anticorrupci\u00f3n no aparecen sus paup\u00e9rrimos antecedentes laborales como indica la ley. Ficha 100% limpia.\n\n         Sandra Pettovello es la gerenta oficial de la pobreza, la reparte-polenta perfumada con salario millonario. Esta mujer s\u00ed gerencia recursos p\u00fablicos y obtiene dinero a cambio. Hoy cobra diez veces m\u00e1s que lo que ganaba hace dos meses, mientras la gente que ella deber\u00eda proteger gana un 30% y come la mitad de las calor\u00edas desde que asumi\u00f3.\n</code></pre>\n\n<p>Sandra Pettovello es un bodoque inepto cuyo m\u00e9rito es haber trepado al c\u00edrculo \u00edntimo del presidente. Te habla de meritocracia y deja sin alimentos a millones de personas, en su mayor\u00eda ni\u00f1os que, si antes com\u00edan mal, ahora no comen, no pueden estudiar, no desarrollan sus capacidades cognitivas.</p>\n\n<p>Semejante ineptitud, \u201ccon tanta gente preparada en el sector privado\u201d, como dir\u00eda Benegas Lynch, habla de la continuidad de la pr\u00e1ctica pol\u00edtica propia lamentable de este pa\u00eds: repartir ministerios, secretar\u00edas y subsecretar\u00edas a los amigos sin experiencia vital, sin antecedentes que justifiquen el nombramiento, sin conocimiento de la materia, sin un plan previamente dise\u00f1ado. No es una cuesti\u00f3n de clase social, no es una cuesti\u00f3n de credenciales acad\u00e9micas. Es saber hacer, es saber distinguir lo urgente de lo postergable, lo necesario de lo accesorio. Es la sabidur\u00eda que se adquiere en la praxis, la facultad de escucha al distinto, la sensibilidad de comprender el dolor ajeno, la capacidad de trabajo colectivo.</p>\n\n<p>Esta mujer no sabe. No siente. No hace.</p>\n\n<p>Su omisi\u00f3n es un crimen moral\u2026 y probablemente un crimen legal.</p>\n\n<p>Milei. El hambre no.</p>\n\n<p><em>Aclaraci\u00f3n: no contrato servicios de inteligencia, no me meto con la vida personal de nadie, no pido informaci\u00f3n privada. Todo lo que estoy publicando es informaci\u00f3n de acceso p\u00fablico \u2014antecedentes laborales\u2014 cuya publicaci\u00f3n es obligaci\u00f3n de los funcionarios. El resto es mi caracterizaci\u00f3n pol\u00edtica sobre una funcionaria que no funciona.</em></p>\n\n<p><em>Aclaraci\u00f3n II: Para cualquier gil que diga \u201cse acordaron ahora\u201d, le recomiendo recurrir a Google, al Chat GPT o a una hemeroteca para ver las acciones y denuncias efectuadas por el suscripto y las organizaciones sociales durante el gobierno anterior.</em></p>\n\n<p><em>JG/DTC</em></p>\n</blockquote>\n\n<hr/>\n\n<p><a href=\"https://www.reddit.com/user/urielsalis\">Maintainer</a> | <a href=\"https://www.reddit.com/user/subtepass\">Creator</a> | <a href=\"https://github.com/urielsalis/empleadoEstatalBot\">Source Code</a></p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": "moderator",
@@ -356,7 +356,7 @@
                                 "approved_by": null,
                                 "mod_note": null,
                                 "all_awardings": [],
-                                "body": "Si pasa , pasa !\n\nhttps://preview.redd.it/sniqzbyuczfc1.png?width=287&amp;format=pjpg&amp;auto=webp&amp;s=2fd234214190c4d6e29f0bff65c3b54ba7bdb15a",
+                                "body": "Si pasa , pasa !\n\nhttps://preview.redd.it/sniqzbyuczfc1.png?width=287&format=pjpg&auto=webp&s=2fd234214190c4d6e29f0bff65c3b54ba7bdb15a",
                                 "edited": false,
                                 "top_awarded_type": null,
                                 "downs": 0,
@@ -366,7 +366,7 @@
                                 "collapsed": false,
                                 "author_flair_richtext": [],
                                 "author_patreon_flair": false,
-                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Si pasa , pasa !&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://preview.redd.it/sniqzbyuczfc1.png?width=287&amp;amp;format=pjpg&amp;amp;auto=webp&amp;amp;s=2fd234214190c4d6e29f0bff65c3b54ba7bdb15a\"&gt;https://preview.redd.it/sniqzbyuczfc1.png?width=287&amp;amp;format=pjpg&amp;amp;auto=webp&amp;amp;s=2fd234214190c4d6e29f0bff65c3b54ba7bdb15a&lt;/a&gt;&lt;/p&gt;\n&lt;/div&gt;",
+                                "body_html": "<div class=\"md\"><p>Si pasa , pasa !</p>\n\n<p><a href=\"https://preview.redd.it/sniqzbyuczfc1.png?width=287&amp;format=pjpg&amp;auto=webp&amp;s=2fd234214190c4d6e29f0bff65c3b54ba7bdb15a\">https://preview.redd.it/sniqzbyuczfc1.png?width=287&amp;format=pjpg&amp;auto=webp&amp;s=2fd234214190c4d6e29f0bff65c3b54ba7bdb15a</a></p>\n</div>",
                                 "gildings": {},
                                 "collapsed_reason": null,
                                 "distinguished": null,
@@ -392,18 +392,18 @@
                                       {
                                         "y": 173,
                                         "x": 108,
-                                        "u": "https://preview.redd.it/sniqzbyuczfc1.png?width=108&amp;crop=smart&amp;auto=webp&amp;s=49c00553240d4dc1c36aab3efb93be4880aae307"
+                                        "u": "https://preview.redd.it/sniqzbyuczfc1.png?width=108&crop=smart&auto=webp&s=49c00553240d4dc1c36aab3efb93be4880aae307"
                                       },
                                       {
                                         "y": 346,
                                         "x": 216,
-                                        "u": "https://preview.redd.it/sniqzbyuczfc1.png?width=216&amp;crop=smart&amp;auto=webp&amp;s=3bb320ae954dcf4a0a067d36b4a3c62606606180"
+                                        "u": "https://preview.redd.it/sniqzbyuczfc1.png?width=216&crop=smart&auto=webp&s=3bb320ae954dcf4a0a067d36b4a3c62606606180"
                                       }
                                     ],
                                     "s": {
                                       "y": 460,
                                       "x": 287,
-                                      "u": "https://preview.redd.it/sniqzbyuczfc1.png?width=287&amp;format=pjpg&amp;auto=webp&amp;s=2fd234214190c4d6e29f0bff65c3b54ba7bdb15a"
+                                      "u": "https://preview.redd.it/sniqzbyuczfc1.png?width=287&format=pjpg&auto=webp&s=2fd234214190c4d6e29f0bff65c3b54ba7bdb15a"
                                     },
                                     "id": "sniqzbyuczfc1"
                                   }
@@ -439,7 +439,7 @@
                       "created_utc": 1706795911.0,
                       "send_replies": true,
                       "parent_id": "t1_kofnqun",
-                      "score": 3,
+                      "score": 2,
                       "author_fullname": "t2_10docx",
                       "removal_reason": null,
                       "approved_by": null,
@@ -459,7 +459,7 @@
                         }
                       ],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Hace tiempo no aparecen los perros, para mi ya est\u00e1n muertos.&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>Hace tiempo no aparecen los perros, para mi ya est\u00e1n muertos.</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -486,7 +486,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 3
+                      "ups": 2
                     }
                   },
                   {
@@ -539,7 +539,7 @@
                         }
                       ],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;CON LA TUYAAAAAAA&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>CON LA TUYAAAAAAA</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -587,7 +587,7 @@
             "created_utc": 1706795854.0,
             "send_replies": true,
             "parent_id": "t3_1agbd15",
-            "score": 4,
+            "score": 6,
             "author_fullname": "t2_sn02g4b7",
             "approved_by": null,
             "mod_note": null,
@@ -602,7 +602,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Los perros tambi\u00e9n tienen 6 aires acondicionados, habria que averiguar si tienen cheff canino y que les preparan&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>Los perros tambi\u00e9n tienen 6 aires acondicionados, habria que averiguar si tienen cheff canino y que les preparan</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -629,7 +629,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 4
+            "ups": 6
           }
         },
         {
@@ -662,7 +662,7 @@
             "created_utc": 1706797568.0,
             "send_replies": true,
             "parent_id": "t3_1agbd15",
-            "score": 2,
+            "score": 1,
             "author_fullname": "t2_c56pi96i",
             "approved_by": null,
             "mod_note": null,
@@ -677,7 +677,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Brutal y criminalmente en cuesti\u00f3n de semanas miles de compatriotas han sido empujados a las puertas del averno , al mism\u00edsimo infierno de la inseguridad alimentaria del no saber como,\u00a0 de que manera alimentar a sus hijos con lo basico un vaso de leche y pan. Miles de familias empujadas al infierno del irse a dormir sin nada en sus est\u00f3magos y con la seguridad de que ma\u00f1ana va a ser igual. El absoluto del problema existencial sin alimentos. Un crimen un pecado de absoluta inmoralidad desde todo punto de vista. En el pa\u00eds de los alimentos, en el pa\u00eds que produce para otros,\u00a0 en el pa\u00eds que le brindo cobijo y le regalo su tierra a miles de inmigrantes que hoy le niegan la posibilidad de subsistencia a los hijos de esta misma tierra. Para pensar y reflexionar . Y espero que pronto antes que tarde para tomar decisiones.&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>Brutal y criminalmente en cuesti\u00f3n de semanas miles de compatriotas han sido empujados a las puertas del averno , al mism\u00edsimo infierno de la inseguridad alimentaria del no saber como,\u00a0 de que manera alimentar a sus hijos con lo basico un vaso de leche y pan. Miles de familias empujadas al infierno del irse a dormir sin nada en sus est\u00f3magos y con la seguridad de que ma\u00f1ana va a ser igual. El absoluto del problema existencial sin alimentos. Un crimen un pecado de absoluta inmoralidad desde todo punto de vista. En el pa\u00eds de los alimentos, en el pa\u00eds que produce para otros,\u00a0 en el pa\u00eds que le brindo cobijo y le regalo su tierra a miles de inmigrantes que hoy le niegan la posibilidad de subsistencia a los hijos de esta misma tierra. Para pensar y reflexionar . Y espero que pronto antes que tarde para tomar decisiones.</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -704,7 +704,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 2
+            "ups": 1
           }
         },
         {
@@ -780,7 +780,7 @@
                         }
                       ],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;realmente el odio al kernerismo de los oligofr\u00e9nicos a su m\u00e1ximo exponente a logrado poner la gente mas incapaz que se encuentra en tareas que desconocen u odian&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>realmente el odio al kernerismo de los oligofr\u00e9nicos a su m\u00e1ximo exponente a logrado poner la gente mas incapaz que se encuentra en tareas que desconocen u odian</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -843,7 +843,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Los libertarios no se identifican con gente que trabaja, por eso votan candidatos con el CUOL virgen. Lo malo es que esta gente recibe votos del pueblo trabajador&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>Los libertarios no se identifican con gente que trabaja, por eso votan candidatos con el CUOL virgen. Lo malo es que esta gente recibe votos del pueblo trabajador</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,

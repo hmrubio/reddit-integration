@@ -1,0 +1,218 @@
+[
+  {
+    "kind": "Listing",
+    "data": {
+      "after": null,
+      "dist": 1,
+      "modhash": "",
+      "geo_filter": "",
+      "children": [
+        {
+          "kind": "t3",
+          "data": {
+            "approved_at_utc": null,
+            "subreddit": "LaMusicaEnArgentina",
+            "selftext": "",
+            "user_reports": [],
+            "saved": false,
+            "mod_reason_title": null,
+            "gilded": 0,
+            "clicked": false,
+            "title": "Industria Tropical (Compilado varios artistas Sudamerica, Pakapi Records & Was Ist Das? 2015)",
+            "link_flair_richtext": [],
+            "subreddit_name_prefixed": "r/LaMusicaEnArgentina",
+            "hidden": false,
+            "pwls": null,
+            "link_flair_css_class": null,
+            "downs": 0,
+            "thumbnail_height": 140,
+            "top_awarded_type": null,
+            "parent_whitelist_status": null,
+            "hide_score": false,
+            "name": "t3_40djxf",
+            "quarantine": false,
+            "link_flair_text_color": "dark",
+            "upvote_ratio": 1.0,
+            "author_flair_background_color": null,
+            "subreddit_type": "restricted",
+            "ups": 1,
+            "total_awards_received": 0,
+            "media_embed": {
+              "content": "<iframe class=\"embedly-embed\" src=\"https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fbandcamp.com%2FEmbeddedPlayer%2Fv%3D2%2Falbum%3D2241960167%2Fsize%3Dlarge%2Flinkcol%3D0084B4%2Fnotracklist%3Dtrue%2Ftwittercard%3Dtrue%2F&display_name=BandCamp&url=https%3A%2F%2Fpakapirecords.bandcamp.com%2Falbum%2Fva-industria-tropical&image=https%3A%2F%2Ff4.bcbits.com%2Fimg%2Fa2683393605_5.jpg&key=2aa3c4d5f3de4f5b9120b660ad850dc9&type=text%2Fhtml&schema=bandcamp\" width=\"350\" height=\"467\" scrolling=\"no\" title=\"BandCamp embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>",
+              "width": 350,
+              "scrolling": false,
+              "height": 467
+            },
+            "thumbnail_width": 140,
+            "author_flair_template_id": null,
+            "is_original_content": false,
+            "author_fullname": "t2_qovv8",
+            "secure_media": {
+              "oembed": {
+                "provider_url": "http://bandcamp.com",
+                "description": "VA - Industria Tropical by Pakapi Records, released 11 November 2015 1. Bloque del Sur - Explanada 2. Astrosuka &amp; Ornamenti d&#39;oro - Ahaetulla nasuta 3. Titanik - Doombia 4. San ignacio - Lineas 5. Panchasila - Proyecto Huemul 6. Kristallo - Aleatorio 7. Bio Dread - Phantom Guerrilla 8.",
+                "title": "VA - Industria Tropical, by Pakapi Records",
+                "thumbnail_width": 700,
+                "height": 467,
+                "width": 350,
+                "html": "<iframe class=\"embedly-embed\" src=\"https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fbandcamp.com%2FEmbeddedPlayer%2Fv%3D2%2Falbum%3D2241960167%2Fsize%3Dlarge%2Flinkcol%3D0084B4%2Fnotracklist%3Dtrue%2Ftwittercard%3Dtrue%2F&display_name=BandCamp&url=https%3A%2F%2Fpakapirecords.bandcamp.com%2Falbum%2Fva-industria-tropical&image=https%3A%2F%2Ff4.bcbits.com%2Fimg%2Fa2683393605_5.jpg&key=2aa3c4d5f3de4f5b9120b660ad850dc9&type=text%2Fhtml&schema=bandcamp\" width=\"350\" height=\"467\" scrolling=\"no\" title=\"BandCamp embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>",
+                "version": "1.0",
+                "provider_name": "BandCamp",
+                "thumbnail_url": "https://f4.bcbits.com/img/a2683393605_5.jpg",
+                "type": "rich",
+                "thumbnail_height": 700
+              },
+              "type": "pakapirecords.bandcamp.com"
+            },
+            "is_reddit_media_domain": false,
+            "is_meta": false,
+            "category": null,
+            "secure_media_embed": {
+              "content": "<iframe class=\"embedly-embed\" src=\"https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fbandcamp.com%2FEmbeddedPlayer%2Fv%3D2%2Falbum%3D2241960167%2Fsize%3Dlarge%2Flinkcol%3D0084B4%2Fnotracklist%3Dtrue%2Ftwittercard%3Dtrue%2F&display_name=BandCamp&url=https%3A%2F%2Fpakapirecords.bandcamp.com%2Falbum%2Fva-industria-tropical&image=https%3A%2F%2Ff4.bcbits.com%2Fimg%2Fa2683393605_5.jpg&key=2aa3c4d5f3de4f5b9120b660ad850dc9&type=text%2Fhtml&schema=bandcamp\" width=\"350\" height=\"467\" scrolling=\"no\" title=\"BandCamp embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>",
+              "width": 350,
+              "scrolling": false,
+              "media_domain_url": "https://www.redditmedia.com/mediaembed/40djxf",
+              "height": 467
+            },
+            "link_flair_text": null,
+            "can_mod_post": false,
+            "score": 1,
+            "approved_by": null,
+            "is_created_from_ads_ui": false,
+            "author_premium": false,
+            "thumbnail": "https://b.thumbs.redditmedia.com/0eGLHLZWyvEOxPLAkK0kN-QVwW3DXAfCvOmy2Q_ztSY.jpg",
+            "edited": false,
+            "author_flair_css_class": null,
+            "author_flair_richtext": [],
+            "gildings": {},
+            "post_hint": "link",
+            "content_categories": null,
+            "is_self": false,
+            "mod_note": null,
+            "created": 1452464384.0,
+            "link_flair_type": "text",
+            "wls": null,
+            "removed_by_category": null,
+            "banned_by": null,
+            "author_flair_type": "text",
+            "domain": "pakapirecords.bandcamp.com",
+            "allow_live_comments": false,
+            "selftext_html": null,
+            "likes": null,
+            "suggested_sort": null,
+            "banned_at_utc": null,
+            "url_overridden_by_dest": "https://pakapirecords.bandcamp.com/album/va-industria-tropical",
+            "view_count": null,
+            "archived": false,
+            "no_follow": true,
+            "is_crosspostable": false,
+            "pinned": false,
+            "over_18": false,
+            "preview": {
+              "images": [
+                {
+                  "source": {
+                    "url": "https://external-preview.redd.it/aaQ5PGy2DopPasfsw4KY4zqgXOyME_OYQYKWcQz6NVg.jpg?auto=webp&s=26cafb7282e9067f258b4f252cda118f71639065",
+                    "width": 700,
+                    "height": 700
+                  },
+                  "resolutions": [
+                    {
+                      "url": "https://external-preview.redd.it/aaQ5PGy2DopPasfsw4KY4zqgXOyME_OYQYKWcQz6NVg.jpg?width=108&crop=smart&auto=webp&s=7e720f8a4e2c00e27625d75e18a691adedba5c47",
+                      "width": 108,
+                      "height": 108
+                    },
+                    {
+                      "url": "https://external-preview.redd.it/aaQ5PGy2DopPasfsw4KY4zqgXOyME_OYQYKWcQz6NVg.jpg?width=216&crop=smart&auto=webp&s=860584f628ef608bf0347c33b1692367bfeff34b",
+                      "width": 216,
+                      "height": 216
+                    },
+                    {
+                      "url": "https://external-preview.redd.it/aaQ5PGy2DopPasfsw4KY4zqgXOyME_OYQYKWcQz6NVg.jpg?width=320&crop=smart&auto=webp&s=3816609c829f04f3f06aa4294f731758c0117dd4",
+                      "width": 320,
+                      "height": 320
+                    },
+                    {
+                      "url": "https://external-preview.redd.it/aaQ5PGy2DopPasfsw4KY4zqgXOyME_OYQYKWcQz6NVg.jpg?width=640&crop=smart&auto=webp&s=084342c0fec4c47d0a28e9dc3a8beea567e1b1ab",
+                      "width": 640,
+                      "height": 640
+                    }
+                  ],
+                  "variants": {},
+                  "id": "nGohpb2MXI5NRzRmlKNSE_hajnwwC9ncSZSs9jAJF0Y"
+                }
+              ],
+              "enabled": false
+            },
+            "all_awardings": [],
+            "awarders": [],
+            "media_only": false,
+            "can_gild": false,
+            "spoiler": false,
+            "locked": false,
+            "author_flair_text": null,
+            "treatment_tags": [],
+            "visited": false,
+            "removed_by": null,
+            "num_reports": null,
+            "distinguished": null,
+            "subreddit_id": "t5_324as",
+            "author_is_blocked": false,
+            "mod_reason_by": null,
+            "removal_reason": null,
+            "link_flair_background_color": "",
+            "id": "40djxf",
+            "is_robot_indexable": true,
+            "num_duplicates": 9,
+            "report_reasons": null,
+            "author": "Pakapi",
+            "discussion_type": null,
+            "num_comments": 0,
+            "send_replies": true,
+            "media": {
+              "oembed": {
+                "provider_url": "http://bandcamp.com",
+                "description": "VA - Industria Tropical by Pakapi Records, released 11 November 2015 1. Bloque del Sur - Explanada 2. Astrosuka &amp; Ornamenti d&#39;oro - Ahaetulla nasuta 3. Titanik - Doombia 4. San ignacio - Lineas 5. Panchasila - Proyecto Huemul 6. Kristallo - Aleatorio 7. Bio Dread - Phantom Guerrilla 8.",
+                "title": "VA - Industria Tropical, by Pakapi Records",
+                "thumbnail_width": 700,
+                "height": 467,
+                "width": 350,
+                "html": "<iframe class=\"embedly-embed\" src=\"https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fbandcamp.com%2FEmbeddedPlayer%2Fv%3D2%2Falbum%3D2241960167%2Fsize%3Dlarge%2Flinkcol%3D0084B4%2Fnotracklist%3Dtrue%2Ftwittercard%3Dtrue%2F&display_name=BandCamp&url=https%3A%2F%2Fpakapirecords.bandcamp.com%2Falbum%2Fva-industria-tropical&image=https%3A%2F%2Ff4.bcbits.com%2Fimg%2Fa2683393605_5.jpg&key=2aa3c4d5f3de4f5b9120b660ad850dc9&type=text%2Fhtml&schema=bandcamp\" width=\"350\" height=\"467\" scrolling=\"no\" title=\"BandCamp embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>",
+                "version": "1.0",
+                "provider_name": "BandCamp",
+                "thumbnail_url": "https://f4.bcbits.com/img/a2683393605_5.jpg",
+                "type": "rich",
+                "thumbnail_height": 700
+              },
+              "type": "pakapirecords.bandcamp.com"
+            },
+            "contest_mode": false,
+            "author_patreon_flair": false,
+            "author_flair_text_color": null,
+            "permalink": "/r/LaMusicaEnArgentina/comments/40djxf/industria_tropical_compilado_varios_artistas/",
+            "whitelist_status": null,
+            "stickied": false,
+            "url": "https://pakapirecords.bandcamp.com/album/va-industria-tropical",
+            "subreddit_subscribers": 132,
+            "created_utc": 1452464384.0,
+            "num_crossposts": 0,
+            "mod_reports": [],
+            "is_video": false
+          }
+        }
+      ],
+      "before": null
+    }
+  },
+  {
+    "kind": "Listing",
+    "data": {
+      "after": null,
+      "dist": null,
+      "modhash": "",
+      "geo_filter": "",
+      "children": [],
+      "before": null
+    }
+  }
+]

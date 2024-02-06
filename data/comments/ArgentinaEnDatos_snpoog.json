@@ -1,0 +1,186 @@
+[
+  {
+    "kind": "Listing",
+    "data": {
+      "after": null,
+      "dist": 1,
+      "modhash": "",
+      "geo_filter": "",
+      "children": [
+        {
+          "kind": "t3",
+          "data": {
+            "approved_at_utc": null,
+            "subreddit": "ArgentinaEnDatos",
+            "selftext": "",
+            "user_reports": [],
+            "saved": false,
+            "mod_reason_title": null,
+            "gilded": 0,
+            "clicked": false,
+            "title": "El precio de la electricidad en Argentina es 74% menos que en Uruguay, 68% m\u00e1s barato que en Chile y 61% m\u00e1s econ\u00f3mico que en Brasil.",
+            "link_flair_richtext": [],
+            "subreddit_name_prefixed": "r/ArgentinaEnDatos",
+            "hidden": false,
+            "pwls": null,
+            "link_flair_css_class": "",
+            "downs": 0,
+            "thumbnail_height": 140,
+            "top_awarded_type": null,
+            "parent_whitelist_status": null,
+            "hide_score": false,
+            "name": "t3_snpoog",
+            "quarantine": false,
+            "link_flair_text_color": "dark",
+            "upvote_ratio": 1.0,
+            "author_flair_background_color": null,
+            "ups": 5,
+            "domain": "i.redd.it",
+            "media_embed": {},
+            "thumbnail_width": 140,
+            "author_flair_template_id": null,
+            "is_original_content": false,
+            "author_fullname": "t2_jgl2pces",
+            "secure_media": null,
+            "is_reddit_media_domain": true,
+            "is_meta": false,
+            "category": null,
+            "secure_media_embed": {},
+            "link_flair_text": "Econom\u00eda",
+            "can_mod_post": false,
+            "score": 5,
+            "approved_by": null,
+            "is_created_from_ads_ui": false,
+            "author_premium": false,
+            "thumbnail": "https://b.thumbs.redditmedia.com/VWBTiW6tzlA4tkGjnnDZgPeixyPoEAV0NpwDtehNj9o.jpg",
+            "edited": false,
+            "author_flair_css_class": null,
+            "author_flair_richtext": [],
+            "gildings": {},
+            "post_hint": "image",
+            "content_categories": null,
+            "is_self": false,
+            "subreddit_type": "restricted",
+            "created": 1644341328.0,
+            "link_flair_type": "text",
+            "wls": null,
+            "removed_by_category": null,
+            "banned_by": null,
+            "author_flair_type": "text",
+            "total_awards_received": 0,
+            "allow_live_comments": false,
+            "selftext_html": null,
+            "likes": null,
+            "suggested_sort": null,
+            "banned_at_utc": null,
+            "url_overridden_by_dest": "https://i.redd.it/nfv1cdie9ng81.jpg",
+            "view_count": null,
+            "archived": false,
+            "no_follow": false,
+            "is_crosspostable": false,
+            "pinned": false,
+            "over_18": false,
+            "preview": {
+              "images": [
+                {
+                  "source": {
+                    "url": "https://preview.redd.it/nfv1cdie9ng81.jpg?auto=webp&s=d45a74984e90a02f2967faacf3cf45c08eafb903",
+                    "width": 1080,
+                    "height": 1080
+                  },
+                  "resolutions": [
+                    {
+                      "url": "https://preview.redd.it/nfv1cdie9ng81.jpg?width=108&crop=smart&auto=webp&s=59007173dd154a3e94c6a4e9ae56a4f990cad940",
+                      "width": 108,
+                      "height": 108
+                    },
+                    {
+                      "url": "https://preview.redd.it/nfv1cdie9ng81.jpg?width=216&crop=smart&auto=webp&s=b034bda9a9df87364ffa7fd5f2e4a16d635b1d4f",
+                      "width": 216,
+                      "height": 216
+                    },
+                    {
+                      "url": "https://preview.redd.it/nfv1cdie9ng81.jpg?width=320&crop=smart&auto=webp&s=3018a0555059286b0a11c5650f7516f5fed0a4dd",
+                      "width": 320,
+                      "height": 320
+                    },
+                    {
+                      "url": "https://preview.redd.it/nfv1cdie9ng81.jpg?width=640&crop=smart&auto=webp&s=437b211e96c8ef174d6cc4faec017580dca8f259",
+                      "width": 640,
+                      "height": 640
+                    },
+                    {
+                      "url": "https://preview.redd.it/nfv1cdie9ng81.jpg?width=960&crop=smart&auto=webp&s=1a34c1167721477700615fb06c7ffcc95fa29ded",
+                      "width": 960,
+                      "height": 960
+                    },
+                    {
+                      "url": "https://preview.redd.it/nfv1cdie9ng81.jpg?width=1080&crop=smart&auto=webp&s=cd8e2a065e08a277547e2d46de4d0e5a5aea6371",
+                      "width": 1080,
+                      "height": 1080
+                    }
+                  ],
+                  "variants": {},
+                  "id": "86jM_UTQpTFz2U7v0TJaVKeTf2D6UUDHMHt4K-VhcuE"
+                }
+              ],
+              "enabled": true
+            },
+            "all_awardings": [],
+            "awarders": [],
+            "media_only": false,
+            "link_flair_template_id": "32590832-8904-11ec-a022-1e77ac51522e",
+            "can_gild": false,
+            "spoiler": false,
+            "locked": false,
+            "author_flair_text": null,
+            "treatment_tags": [],
+            "visited": false,
+            "removed_by": null,
+            "mod_note": null,
+            "distinguished": null,
+            "subreddit_id": "t5_5tj26d",
+            "author_is_blocked": false,
+            "mod_reason_by": null,
+            "num_reports": null,
+            "removal_reason": null,
+            "link_flair_background_color": "#ffd635",
+            "id": "snpoog",
+            "is_robot_indexable": true,
+            "num_duplicates": 0,
+            "report_reasons": null,
+            "author": "ArgentinaEnDatos",
+            "discussion_type": null,
+            "num_comments": 0,
+            "send_replies": true,
+            "media": null,
+            "contest_mode": false,
+            "author_patreon_flair": false,
+            "author_flair_text_color": null,
+            "permalink": "/r/ArgentinaEnDatos/comments/snpoog/el_precio_de_la_electricidad_en_argentina_es_74/",
+            "whitelist_status": null,
+            "stickied": false,
+            "url": "https://i.redd.it/nfv1cdie9ng81.jpg",
+            "subreddit_subscribers": 126,
+            "created_utc": 1644341328.0,
+            "num_crossposts": 0,
+            "mod_reports": [],
+            "is_video": false
+          }
+        }
+      ],
+      "before": null
+    }
+  },
+  {
+    "kind": "Listing",
+    "data": {
+      "after": null,
+      "dist": null,
+      "modhash": "",
+      "geo_filter": "",
+      "children": [],
+      "before": null
+    }
+  }
+]

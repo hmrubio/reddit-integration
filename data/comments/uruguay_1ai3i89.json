@@ -1,0 +1,188 @@
+[
+  {
+    "kind": "Listing",
+    "data": {
+      "after": null,
+      "dist": 1,
+      "modhash": "",
+      "geo_filter": "",
+      "children": [
+        {
+          "kind": "t3",
+          "data": {
+            "approved_at_utc": null,
+            "subreddit": "uruguay",
+            "selftext": "&#x200B;\n\nhttps://preview.redd.it/y4jl2dzp4fgc1.png?width=1024&format=png&auto=webp&s=4132a0329014f05107e287a6381b9f114307f953",
+            "user_reports": [],
+            "saved": false,
+            "mod_reason_title": null,
+            "gilded": 0,
+            "clicked": false,
+            "title": "Uruguayo Programador Promedio",
+            "link_flair_richtext": [
+              {
+                "e": "text",
+                "t": "Hecho en UY \ud83d\ude0e"
+              }
+            ],
+            "subreddit_name_prefixed": "r/uruguay",
+            "hidden": false,
+            "pwls": null,
+            "link_flair_css_class": "",
+            "downs": 0,
+            "thumbnail_height": 140,
+            "top_awarded_type": null,
+            "parent_whitelist_status": null,
+            "hide_score": false,
+            "media_metadata": {
+              "y4jl2dzp4fgc1": {
+                "status": "valid",
+                "e": "Image",
+                "m": "image/png",
+                "p": [
+                  {
+                    "y": 108,
+                    "x": 108,
+                    "u": "https://preview.redd.it/y4jl2dzp4fgc1.png?width=108&crop=smart&auto=webp&s=6dd771a147a5b0eaa00b8ba60b76034415cbc40c"
+                  },
+                  {
+                    "y": 216,
+                    "x": 216,
+                    "u": "https://preview.redd.it/y4jl2dzp4fgc1.png?width=216&crop=smart&auto=webp&s=97c7f0ad95a05ddd70bfc52f63c3a78ce200e779"
+                  },
+                  {
+                    "y": 320,
+                    "x": 320,
+                    "u": "https://preview.redd.it/y4jl2dzp4fgc1.png?width=320&crop=smart&auto=webp&s=c3bb07dbff85de32e3dd10f378c4146b10049214"
+                  },
+                  {
+                    "y": 640,
+                    "x": 640,
+                    "u": "https://preview.redd.it/y4jl2dzp4fgc1.png?width=640&crop=smart&auto=webp&s=7ecf95a4e879efe5ccd87af1728087a7c4e64919"
+                  },
+                  {
+                    "y": 960,
+                    "x": 960,
+                    "u": "https://preview.redd.it/y4jl2dzp4fgc1.png?width=960&crop=smart&auto=webp&s=fa347ca779ec3b6045fe22aba2d374318e3c801f"
+                  }
+                ],
+                "s": {
+                  "y": 1024,
+                  "x": 1024,
+                  "u": "https://preview.redd.it/y4jl2dzp4fgc1.png?width=1024&format=png&auto=webp&s=4132a0329014f05107e287a6381b9f114307f953"
+                },
+                "id": "y4jl2dzp4fgc1"
+              }
+            },
+            "name": "t3_1ai3i89",
+            "quarantine": false,
+            "link_flair_text_color": "light",
+            "upvote_ratio": 0.42,
+            "author_flair_background_color": "#ffd635",
+            "subreddit_type": "public",
+            "ups": 0,
+            "total_awards_received": 0,
+            "media_embed": {},
+            "thumbnail_width": 140,
+            "author_flair_template_id": "07d9fef2-8885-11eb-8aba-0ee69f9ebf91",
+            "is_original_content": false,
+            "author_fullname": "t2_s40a18u9t",
+            "secure_media": null,
+            "is_reddit_media_domain": false,
+            "is_meta": false,
+            "category": null,
+            "secure_media_embed": {},
+            "link_flair_text": "Hecho en UY \ud83d\ude0e",
+            "can_mod_post": false,
+            "score": 0,
+            "approved_by": null,
+            "is_created_from_ads_ui": false,
+            "author_premium": false,
+            "thumbnail": "https://a.thumbs.redditmedia.com/tjL6p5TLvr5MLdLMnrJVyeLnHZGGi6XAerGpoTJb-d8.jpg",
+            "edited": false,
+            "author_flair_css_class": null,
+            "author_flair_richtext": [
+              {
+                "e": "text",
+                "t": "Trava AntiZurdos"
+              }
+            ],
+            "gildings": {},
+            "content_categories": null,
+            "is_self": true,
+            "mod_note": null,
+            "created": 1706987159.0,
+            "link_flair_type": "richtext",
+            "wls": null,
+            "removed_by_category": null,
+            "banned_by": null,
+            "author_flair_type": "richtext",
+            "domain": "self.uruguay",
+            "allow_live_comments": false,
+            "selftext_html": "<!-- SC_OFF --><div class=\"md\"><p>&#x200B;</p>\n\n<p><a href=\"https://preview.redd.it/y4jl2dzp4fgc1.png?width=1024&amp;format=png&amp;auto=webp&amp;s=4132a0329014f05107e287a6381b9f114307f953\">https://preview.redd.it/y4jl2dzp4fgc1.png?width=1024&amp;format=png&amp;auto=webp&amp;s=4132a0329014f05107e287a6381b9f114307f953</a></p>\n</div><!-- SC_ON -->",
+            "likes": null,
+            "suggested_sort": null,
+            "banned_at_utc": null,
+            "view_count": null,
+            "archived": false,
+            "no_follow": true,
+            "is_crosspostable": false,
+            "pinned": false,
+            "over_18": false,
+            "all_awardings": [],
+            "awarders": [],
+            "media_only": false,
+            "link_flair_template_id": "32401a5e-b2a7-11eb-ab45-0ea9d54a1997",
+            "can_gild": false,
+            "spoiler": false,
+            "locked": false,
+            "author_flair_text": "Trava AntiZurdos",
+            "treatment_tags": [],
+            "visited": false,
+            "removed_by": null,
+            "num_reports": null,
+            "distinguished": null,
+            "subreddit_id": "t5_2qmvj",
+            "author_is_blocked": false,
+            "mod_reason_by": null,
+            "removal_reason": null,
+            "link_flair_background_color": "#6b0f39",
+            "id": "1ai3i89",
+            "is_robot_indexable": true,
+            "num_duplicates": 0,
+            "report_reasons": null,
+            "author": "DiamondTrans_UY",
+            "discussion_type": null,
+            "num_comments": 0,
+            "send_replies": true,
+            "media": null,
+            "contest_mode": false,
+            "author_patreon_flair": false,
+            "author_flair_text_color": "dark",
+            "permalink": "/r/uruguay/comments/1ai3i89/uruguayo_programador_promedio/",
+            "whitelist_status": null,
+            "stickied": false,
+            "url": "https://www.reddit.com/r/uruguay/comments/1ai3i89/uruguayo_programador_promedio/",
+            "subreddit_subscribers": 115365,
+            "created_utc": 1706987159.0,
+            "num_crossposts": 0,
+            "mod_reports": [],
+            "is_video": false
+          }
+        }
+      ],
+      "before": null
+    }
+  },
+  {
+    "kind": "Listing",
+    "data": {
+      "after": null,
+      "dist": null,
+      "modhash": "",
+      "geo_filter": "",
+      "children": [],
+      "before": null
+    }
+  }
+]
