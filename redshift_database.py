@@ -1,7 +1,11 @@
 import json
+from datetime import datetime
+
 import pandas
 import sqlalchemy
 import configparser
+
+from pandas import DataFrame
 from sqlalchemy.engine.url import URL
 
 
@@ -17,39 +21,111 @@ username=general_config["USER"]
 password=general_config["PASS"]
 schema = general_config['SCHEMA']
 
-url = URL.create(
-    drivername='redshift+redshift_connector',
-    host=host,
-    port=port,
-    database=database,
-    username=username,
-    password=password,
-)
+user_id = "admin"
+update_date = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+disable = "N"
 
-#engine = sqlalchemy.create_engine(
-#    f"redshift+psycopg2://{username}:{password}@{host}:{port}/{database}"
-#)
+def deep_search_recursive(children: list, info_dict: dict):
+    for value in children:
+        comment: dict = value["data"]
 
-engine = sqlalchemy.create_engine(url)
+        comment_body: str = comment["body"] if "body" in comment else ""
+        comment_id: str = f"{value['kind']}_{comment['id']}"
+        comment_parent_id: str = comment["parent_id"] if "parent_id" in comment else ""
+        comment_subreddit_id: str = comment["subreddit_id"]
+        comment_title: str = comment["title"] if "title" in comment else ""
+        comment_url: str = comment["permalink"]
 
-with open("C:/Users/hmr/OneDrive - Penta Consulting S.A/Estudio/Ingeniería de Datos/Proyecto final/data/comments/AirsoftEnArgentina_1922vhy.json") as file:
-    dictionary = json.load(file)
+        author_id: str = comment["author"]
 
-#print(dictionary)
+        subreddit_id: str = comment["subreddit_id"]
+        subreddit_name_prefixed: str = comment["subreddit_name_prefixed"]
 
-path = "C:/Users/hmr/OneDrive - Penta Consulting S.A/Estudio/Ingeniería de Datos/Proyecto final/data/comments/AirsoftEnArgentina_1922vhy.json"
-#dataframe_json = pandas.read_json(path)
+        comment_dict = {
+            "text": comment_body,
+            "post_id": comment_id,
+            "post_id_father": comment_parent_id,
+            "subreddit_id": comment_subreddit_id,
+            "title": comment_title,
+            "url": comment_url,
+            "author_id": author_id,
+            "user_id": user_id,
+            "update_date": update_date,
+            "disable": disable
+        }
 
-dataframe_json = pandas.json_normalize(dictionary, ["data", "children"])["data.author"].head()
+        author_dict = {
+            "author_id": author_id,
+            "user_id": user_id,
+            "update_date": update_date,
+            "disable": disable
+        }
 
-#dataframe_json = pandas.DataFrame(dictionary)
-print(dataframe_json)
+        subreddit_dict = {
+            "subreddit_id": subreddit_id,
+            "description": subreddit_name_prefixed,
+            "user_id": user_id,
+            "update_date": update_date,
+            "disable": disable
+        }
 
-dataframe_json.to_sql(f"dim_author", engine.connect(),
-            schema="rubiomatias2_coderhouse",
-            if_exists="append",
-            method="multi",
-            chunksize=1000,
-            index=False)
+        info_dict.setdefault("comments", list()).append(comment_dict)
 
-#print(dataframe_json["data.subreddit"])
+        authors = info_dict.setdefault("authors", list())
+        if author_dict not in authors:
+            authors.append(author_dict)
+
+        subreddits = info_dict.setdefault("subreddits", list())
+        if subreddit_dict not in subreddits:
+            subreddits.append(subreddit_dict)
+
+        if "replies" in comment:
+            if "data" in comment["replies"]:
+                deep_search_recursive(comment["replies"]["data"]["children"], info_dict)
+
+def insert_into_database(table: str, dataframe: DataFrame):
+    url = URL.create(
+        drivername='redshift+redshift_connector',
+        host=host,
+        port=port,
+        database=database,
+        username=username,
+        password=password,
+    )
+
+    engine = sqlalchemy.create_engine(url)
+    with engine.connect() as conn:
+        dataframe.to_sql(table, conn,
+                                 schema="rubiomatias2_coderhouse",
+                                 if_exists="append",
+                                 method="multi",
+                                 chunksize=1000,
+                                 index=False)
+
+
+path = "C:/Users/hmr/OneDrive - Penta Consulting S.A/Estudio/Ingeniería de Datos/Proyecto final/data/comments/Argaming_1af41ei.json"
+
+
+with open(path) as file:
+    dictionary: list = json.load(file)
+
+replies = dictionary.pop()
+main_comment = dictionary.pop()
+info_dict: dict = {
+    "authors": list(),
+    "comments": list(),
+    "subreddits": list()
+}
+
+deep_search_recursive(main_comment["data"]["children"], info_dict)
+deep_search_recursive(replies["data"]["children"], info_dict)
+
+dataframe_authors = pandas.json_normalize(info_dict, ["authors"])
+dataframe_comments = pandas.json_normalize(info_dict, ["comments"])
+dataframe_subreddits = pandas.json_normalize(info_dict, ["subreddits"])
+
+insert_into_database("dim_author", dataframe_authors)
+insert_into_database("dim_comment", dataframe_comments)
+insert_into_database("dim_subreddit", dataframe_subreddits)
+
+
