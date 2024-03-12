@@ -1,4 +1,5 @@
 import json
+import os
 from datetime import datetime
 
 import pandas
@@ -8,22 +9,23 @@ import configparser
 from pandas import DataFrame
 from sqlalchemy.engine.url import URL
 
-
 config_file_parser = configparser.ConfigParser()
 config_file_parser.read('redshift_database.py.ini')
 
 general_config = config_file_parser['GENERAL']
+data_files_config = config_file_parser['DATA_FILES']
 
-host=general_config["HOST"]
-port=general_config.getint("PORT")
-database=general_config["DATABASE"]
-username=general_config["USER"]
-password=general_config["PASS"]
+host = general_config["HOST"]
+port = general_config.getint("PORT")
+database = general_config["DATABASE"]
+username = general_config["USER"]
+password = general_config["PASS"]
 schema = general_config['SCHEMA']
 
 user_id = "admin"
 update_date = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 disable = "N"
+
 
 def deep_search_recursive(children: list, info_dict: dict):
     for value in children:
@@ -32,14 +34,14 @@ def deep_search_recursive(children: list, info_dict: dict):
         comment_body: str = comment["body"] if "body" in comment else ""
         comment_id: str = f"{value['kind']}_{comment['id']}"
         comment_parent_id: str = comment["parent_id"] if "parent_id" in comment else ""
-        comment_subreddit_id: str = comment["subreddit_id"]
+        comment_subreddit_id: str = comment["subreddit_id"] if "subreddit_id" in comment else ""
         comment_title: str = comment["title"] if "title" in comment else ""
-        comment_url: str = comment["permalink"]
+        comment_url: str = comment["permalink"] if "permalink" in comment else ""
 
-        author_id: str = comment["author"]
+        author_id: str = comment["author"] if "author" in comment else ""
 
-        subreddit_id: str = comment["subreddit_id"]
-        subreddit_name_prefixed: str = comment["subreddit_name_prefixed"]
+        subreddit_id: str = comment["subreddit_id"] if "subreddit_id" in comment else ""
+        subreddit_name_prefixed: str = comment["subreddit_name_prefixed"] if "subreddit_name_prefixed" in comment else ""
 
         comment_dict = {
             "text": comment_body,
@@ -83,6 +85,7 @@ def deep_search_recursive(children: list, info_dict: dict):
             if "data" in comment["replies"]:
                 deep_search_recursive(comment["replies"]["data"]["children"], info_dict)
 
+
 def insert_into_database(table: str, dataframe: DataFrame):
     url = URL.create(
         drivername='redshift+redshift_connector',
@@ -96,36 +99,43 @@ def insert_into_database(table: str, dataframe: DataFrame):
     engine = sqlalchemy.create_engine(url)
     with engine.connect() as conn:
         dataframe.to_sql(table, conn,
-                                 schema="rubiomatias2_coderhouse",
-                                 if_exists="append",
-                                 method="multi",
-                                 chunksize=1000,
-                                 index=False)
+                         schema="rubiomatias2_coderhouse",
+                         if_exists="append",
+                         method=None,
+                         chunksize=1000,
+                         index=False)
 
 
-path = "C:/Users/hmr/OneDrive - Penta Consulting S.A/Estudio/Ingeniería de Datos/Proyecto final/data/comments/Argaming_1af41ei.json"
+directory = data_files_config["PATH"]
+files = os.listdir(directory)
+for file in files:
+    path = f"{directory}/{file}"
+    print(path)
 
+    with open(path) as file:
+        dictionary: list = json.load(file)
 
-with open(path) as file:
-    dictionary: list = json.load(file)
+    replies = dictionary.pop()
+    main_comment = dictionary.pop()
+    info_dict: dict = {
+        "authors": list(),
+        "comments": list(),
+        "subreddits": list()
+    }
 
-replies = dictionary.pop()
-main_comment = dictionary.pop()
-info_dict: dict = {
-    "authors": list(),
-    "comments": list(),
-    "subreddits": list()
-}
+    deep_search_recursive(main_comment["data"]["children"], info_dict)
+    deep_search_recursive(replies["data"]["children"], info_dict)
 
-deep_search_recursive(main_comment["data"]["children"], info_dict)
-deep_search_recursive(replies["data"]["children"], info_dict)
+    dataframe_authors = pandas.json_normalize(info_dict, ["authors"])
+    dataframe_comments = pandas.json_normalize(info_dict, ["comments"])
+    dataframe_subreddits = pandas.json_normalize(info_dict, ["subreddits"])
 
-dataframe_authors = pandas.json_normalize(info_dict, ["authors"])
-dataframe_comments = pandas.json_normalize(info_dict, ["comments"])
-dataframe_subreddits = pandas.json_normalize(info_dict, ["subreddits"])
+    try:
+        insert_into_database("dim_author", dataframe_authors)
+        insert_into_database("dim_comment", dataframe_comments)
+        insert_into_database("dim_subreddit", dataframe_subreddits)
+    except:
+        print("There was a problem. Continuing with next file...")
+        continue
 
-insert_into_database("dim_author", dataframe_authors)
-insert_into_database("dim_comment", dataframe_comments)
-insert_into_database("dim_subreddit", dataframe_subreddits)
-
-
+    print("Finished.\n")

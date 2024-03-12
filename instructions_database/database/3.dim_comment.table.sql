@@ -7,7 +7,7 @@ CREATE TABLE IF NOT EXISTS rubiomatias2_coderhouse.dim_comment
 	,title VARCHAR(256)   ENCODE lzo
 	,author_id VARCHAR(256)   ENCODE lzo
 	,url VARCHAR(256)   ENCODE lzo
-	,text VARCHAR(256)   ENCODE lzo
+	,text VARCHAR(20000)   ENCODE lzo
 	,user_id VARCHAR(256)   ENCODE lzo
 	,update_date TIMESTAMP   ENCODE az64
 	,"disable" CHAR(1)   ENCODE lzo
